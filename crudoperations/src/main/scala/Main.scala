@@ -4,7 +4,6 @@ import org.http4s.server.Router
 import org.http4s.implicits._
 import org.http4s.server.blaze._
 
-
 object Main extends IOApp {
 
   private val studentRepo: StudentRepo = new c1

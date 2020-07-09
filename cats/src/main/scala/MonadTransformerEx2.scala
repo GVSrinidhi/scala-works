@@ -1,5 +1,4 @@
 import cats.instances.either._
-import cats.instances.list._
 import cats.syntax.applicative._
 import cats.data.OptionT
 

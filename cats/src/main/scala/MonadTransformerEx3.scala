@@ -11,7 +11,7 @@ object MonadTransformerEx3 extends App{
   type FutureEither[A] = EitherT[Future,String,A]
   // String is error type for Either
   //A is result type for Either
-  
+
   type FutureEitherOption[A] = OptionT[FutureEither,A]
 
   val val1 : FutureEitherOption[Int] =

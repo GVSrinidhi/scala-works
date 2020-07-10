@@ -9,6 +9,7 @@ object MonadTransformerEx3 extends App{
   //Future of an Either of Option
 
   type FutureEither[A] = EitherT[Future,String,A]
+  
   // String is error type for Either
   //A is result type for Either
 

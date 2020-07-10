@@ -2,7 +2,7 @@ import cats.{Functor, Semigroupal}
 
 object ApplicativeEx extends App{
 
-  //applicative => 2 type classes Apply and Applicative
+  //applicative => 2 type classes Apply(ap method) and Applicative(pure method)
   trait Apply[F[_]] extends Semigroupal[F] with Functor[F] {
     def ap[A,B](ff : F[A=>B])(fa : F[A]) : F[B]
 

@@ -6,8 +6,9 @@ object FunctorEx1 extends App{
 
   val f = (a:Int) => a*2
   println(Functor[List].lift(f))
-  val lift = Functor[List].lift(f)
-  println(lift(List(10,20)))
+
+  val lf= Functor[List].lift(f)
+  println(lf(List(10,20)))
 
   def strlen(str:String):Int = str.length
   val fun=Functor[Option].lift(strlen)

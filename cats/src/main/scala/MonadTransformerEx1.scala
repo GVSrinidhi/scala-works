@@ -15,5 +15,5 @@ object MonadTransformerEx1 extends App{
     }
   })
 
-//OptionT(List(Some(52)))
+//o/p:OptionT(List(Some(52)))
 }

@@ -22,6 +22,5 @@ object MonadTransformerEx3 extends App{
 
   println(val1)
 
-
 }
 

@@ -20,5 +20,4 @@ object FunctorEx extends App{
   //Instead of nested datatype we can use Functor compose method
   println(Functor[List].compose[Option].map(list2)(_+2))
 
-
 }

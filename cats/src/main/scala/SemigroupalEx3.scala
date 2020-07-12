@@ -24,6 +24,5 @@ object SemigroupalEx3 extends App{
   val nidhi = Student("Srinidhi",21,List("DBMS","Java","Scala"))
   val nithin = Student("Nithin",21,List("Science","Social"))
   println(nidhi |+| nithin)
-
-
+  
 }

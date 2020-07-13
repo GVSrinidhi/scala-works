@@ -21,6 +21,7 @@ object Main extends IOApp {
       .compile
       .drain
       .as(ExitCode.Success)
+
   }
 
 }
